@@ -3,16 +3,17 @@
 // a = 2, b = 10 -> нет 
 // a = 9, b = -3 -> да 
 // a = -3 b = 9 -> нет
-System.Console.WriteLine("Введите первое число: ");
-int a = int.Parse(Console.ReadLine()!);
-System.Console.WriteLine("Введите второе число: ");
-int b = int.Parse(Console.ReadLine()!);
 
+
+Console.WriteLine("Введите первое число: ");
+int a = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите второе число: ");
+int b = int.Parse(Console.ReadLine()!);
 if(a==b*b)
 {
-System.Console.WriteLine( $"является квадратом числа {a} ");
+Console.WriteLine( $"является квадратом числа {a} ");
 }
 else
 {
-    System.Console.WriteLine( $" не является квадратом числа {a}");
+Console.WriteLine( $" не является квадратом числа {a}");
 }
