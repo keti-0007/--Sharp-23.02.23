@@ -3,7 +3,7 @@
 // 5 -> Пятница
 
 
-System.Console.WriteLine("Введите число: ");
+ Console.WriteLine("Введите число: ");
  
  int a = int.Parse(Console.ReadLine()!);
   if( a == 1)
