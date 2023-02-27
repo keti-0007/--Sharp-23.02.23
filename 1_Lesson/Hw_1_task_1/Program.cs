@@ -2,7 +2,8 @@
 // a = 5; b = 7 -> max = 7
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
-// не add нет комит и не пушила !!!!!!!
+
+
 Console.Clear();
 Console.Write("Введите первое число: ");
 int a = int.Parse(Console.ReadLine()!);
