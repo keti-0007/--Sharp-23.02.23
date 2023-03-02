@@ -13,3 +13,16 @@ int SearchNum(int num)
 }
 int result = SearchNum(num);
 System.Console.WriteLine(result);
+
+
+
+// II вариант
+// System.Console.WriteLine("-->");
+// string NumSec(int num)
+// {
+//         if((-1000 < num && num < -100) || (num < 1000 && num > 100))
+//         return $"{num /10 %10}";
+//         return "The number is not three-digit!";
+
+// }
+// System.Console.WriteLine(NumSec(int.Parse(Console.ReadLine()!)));
