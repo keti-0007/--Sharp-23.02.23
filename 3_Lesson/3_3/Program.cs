@@ -19,3 +19,4 @@ void Div(int num)
 }
 
 Div(N);
+
