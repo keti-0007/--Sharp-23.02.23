@@ -12,11 +12,13 @@ void Div(int num)
 {
     while( num >= i)
     {
-        System.Console.WriteLine(Math.Pow(i , 2));
+        System.Console.Write(Math.Pow(i, 2));
         i++;
     }
 
 }
 
 Div(N);
+
+
 

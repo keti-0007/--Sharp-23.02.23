@@ -20,3 +20,14 @@ void Div(int num)
 }
 
 Div(N);
+
+//2 варивнт 
+
+
+// System.Console.WriteLine("Введите число: ");
+// int n =  int.Parse(System.Console.ReadLine()!); 
+
+// for(int i = 1; i <= n ; i++)
+// {
+//     System.Console.Write($" {i*i*i} ");
+// }
