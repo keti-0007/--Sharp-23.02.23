@@ -38,12 +38,13 @@ void FindTwoEven(int[,] arr)
 }
 
 
-Console.Write("Enter the number of rows: ");
+Console.WriteLine("Введите количество строк: ");
 int row_num = int.Parse(Console.ReadLine()!);
-Console.Write("Enter the number of columns: ");
+Console.WriteLine("Введите количество столбцов ");
 int column_num = int.Parse(Console.ReadLine()!);
-
+Console.WriteLine("Введите минимальное значение для диапозона случайного числа: ");
 int start = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите максимальное значение для диапозона случайного числа: ");
 int stop = int.Parse(Console.ReadLine()!);
 
 int[,] mass = MassNums(row_num, column_num, start, stop);
