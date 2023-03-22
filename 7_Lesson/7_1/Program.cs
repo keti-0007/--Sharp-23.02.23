@@ -27,16 +27,16 @@ int[,] MassSimple(int row, int column)
     return arr;
 }
 
-Console.WriteLine("Введите количество строк: ");
+Console.Write("Введите количество строк: ");
 int row_num = int.Parse(Console.ReadLine()!);
 
-Console.WriteLine("Введите количество столбцов ");
+Console.Write("Введите количество столбцов ");
 int column_num = int.Parse(Console.ReadLine()!);
 
-Console.WriteLine("Введите минимальное значение для диапозона случайного числа: ");
+Console.Write("Введите минимальное значение для диапозона случайного числа: ");
 int start = int.Parse(Console.ReadLine()!);
 
-Console.WriteLine("Введите максимальное значение для диапозона случайного числа: ");
+Console.Write("Введите максимальное значение для диапозона случайного числа: ");
 int stop = int.Parse(Console.ReadLine()!);
 
 int[,] mass = MassSimple(row_num, column_num);
